@@ -6,6 +6,12 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/peridot
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/peridot/proprietary/odm/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/0_click_P_RTP.bin \
+    vendor/xiaomi/peridot/proprietary/odm/firmware/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/1_doubelClick_P_RTP.bin \
+    vendor/xiaomi/peridot/proprietary/odm/firmware/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/2_tick_P_RTP.bin \
+    vendor/xiaomi/peridot/proprietary/odm/firmware/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/3_thud_P_RTP.bin \
+    vendor/xiaomi/peridot/proprietary/odm/firmware/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/4_pop_P_RTP.bin \
+    vendor/xiaomi/peridot/proprietary/odm/firmware/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/5_heavyClick_P_RTP.bin \
     vendor/xiaomi/peridot/proprietary/odm/bin/hw/android.hardware.gnss-aidl-service-qti:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.gnss-aidl-service-qti \
     vendor/xiaomi/peridot/proprietary/odm/bin/hw/android.hardware.nqnfc-service.nxp:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.nqnfc-service.nxp \
     vendor/xiaomi/peridot/proprietary/odm/bin/hw/misensor_camera:$(TARGET_COPY_OUT_ODM)/bin/hw/misensor_camera \
